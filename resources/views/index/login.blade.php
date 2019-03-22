@@ -31,7 +31,7 @@
             <td><input type="password" id="pwd" name="pwd"></td>
         </tr>
         <tr>
-            <td><a href="http://vm.passport.com/register">注册页面</a></td>
+            <td><a href="{{url('/register')}}">注册页面</a></td>
             <td><input onclick="login()"  class="btn btn-success" value="登录"></td>
         </tr>
     </table>

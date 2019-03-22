@@ -27,7 +27,7 @@
             <td><input type="password" id="pwd2" name="pwd2"></td>
         </tr>
         <tr>
-            <td><a href="http://vm.passport.com/login">登录页面</a></td>
+            <td><a href="{{url('/login')}}">登录页面</a></td>
             <td><input  class="btn btn-success" onclick="register()" value="注册"></td>
         </tr>
     </table>
