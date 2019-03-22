@@ -148,6 +148,8 @@ class IndexController extends Controller
             Redis::set($key,$token);
             Redis::setTimeout($key,60*60*24*7);
             $response = [
+                'errno' =>  0,
+                'msg'   =>  '登陆成功',
                 'token' =>  $token
             ];
         }else{
